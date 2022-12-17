@@ -1,0 +1,142 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 576px) {
+  body {
+    margin: none !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  .title {
+    font-size: 40px !important;
+  }
+  .email-link {
+    font-size: 24px !important;
+  }
+  .hrtg-button {
+    display: block !important;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-color: #f5f2fe;
+}
+
+.title {
+  font-family: "Martian Mono", monospace;
+  font-size: 96px;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.work-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+  margin: 10px;
+  background: white !important;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+}
+
+.hrtg-button {
+  background-color: var(--primary-color) !important;
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-align: center;
+  margin: 10px 0px 30px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.image-about {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.row-container {
+  margin: 10px 60px 10px 60px;
+}
+
+.navbar-custom {
+  background-color: #f5f2fe !important;
+}
