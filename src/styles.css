@@ -29,6 +29,13 @@ h3 {
 }
 
 p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.index-project-paragraph {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
