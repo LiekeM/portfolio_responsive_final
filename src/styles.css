@@ -40,7 +40,7 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-footer {
+.contact-box {
   margin-top: 120px !important;
   background-color: var(--secondary-color);
 }
@@ -60,7 +60,7 @@ footer {
 
 .title {
   font-family: "Martian Mono", monospace;
-  font-size: 96px;
+  font-size: 86px;
 }
 
 .header {
