@@ -1,8 +1,28 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #342baa;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* #f5f2fe #e6f0ff #6c63ff #eeeeee #225763 #153b44 #f1f1f1 1e6262
+  --primary-color: #0f226e;
+  --secondary-color: #d6d3f1;
+  
+   --primary-color: #ffedaf;
+  --secondary-color: #de9bcf;
+  
+    --primary-color: #342baa;
+  --secondary-color: #98b0bc;
+  
+    --primary-color: #106f78;
+  --secondary-color: #e2bcdd; 
+
+    --primary-color: #2e3ca6;
+  --secondary-color: #e2d7dd;
+
+    --primary-color: #20097b;
+  --secondary-color: #c9c0d2;
+  */
 
 @media (max-width: 576px) {
   body {
@@ -113,7 +133,7 @@ p {
 }
 
 .hero {
-  background-color: #f5f2fe;
+  background-color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -126,7 +146,7 @@ p {
 .hrtg-button {
   background-color: var(--primary-color) !important;
   box-shadow: var(--box-shadow);
-  color: white;
+  color: white !important;
   text-align: center;
   margin: 10px 0px 30px 0px;
   font-family: "Roboto", sans-serif;
@@ -189,7 +209,7 @@ p {
 .socials-icons {
   display: flex;
   justify-content: center;
-  color: #6c63ff !important;
+  color: var(--primary-color) !important;
   background-color: #fff;
   padding: 10px;
   margin: 0px 10px;
