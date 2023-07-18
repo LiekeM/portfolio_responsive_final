@@ -168,6 +168,10 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.index-project-paragraph h2 {
+  margin-top: 10px;
+}
+
 .navbar-custom {
   background-color: var(--secondary-color) !important;
   font-family: "Robobto", sans-serif;
