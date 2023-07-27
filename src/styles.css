@@ -100,13 +100,17 @@ p {
 .contact-link {
   /* background: var(--primary-color); */
   background: #f465c5;
+  opacity: 90%;
   box-shadow: var(--box-shadow);
   color: white;
   font-family: "Roboto", sans-serif;
+  transition: 0.3s;
 }
 
 .contact-link:hover {
-  color: white;
+  background: #f465c5;
+  opacity: 100%;
+  color: greenyellow;
 }
 
 .email-link {
@@ -122,7 +126,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
   font-family: "Roboto", sans-serif;
-  color: #e35686;
+  color: #cbbbfc;
 }
 
 .header {
@@ -161,6 +165,11 @@ p {
   text-align: center;
   margin: 10px 0px 30px 0px;
   font-family: "Roboto", sans-serif;
+  opacity: 93%;
+}
+
+.hrtg-button:hover {
+  opacity: 100%;
 }
 
 .image-about {
@@ -233,4 +242,10 @@ p {
   text-decoration: none;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
+  opacity: 90%;
+}
+
+.socials-icons:hover {
+  opacity: 100%;
+  background-color: #e1d7fd;
 }
